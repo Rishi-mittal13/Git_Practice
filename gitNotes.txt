@@ -1,0 +1,26 @@
+//basic - commands 
+1). git --version :- tell's the about the git version that install in your system . 
+
+
+//configuring git . 
+
+1). git config --global user.name "username"
+2). git config --global user.email "useremail"
+3). git config --list :- display about the details about the current user of git that made changes in a project .  
+
+//cloning a git repo .  in current folder .
+1). git clone "https link of repo " 
+2). git init : - initialize an existing directory as a Git repository
+
+
+//git staging . 
+1) . git status :- show modified files in working directory, staged for your next commit
+2). git add . :- add all new file and modified content in to staging area . 
+3). git commit -m "discriptive message"
+4). git restore filename :- to unstage any file that is staged . 
+
+
+
+//git push :- to push your changes in main branch of git . 
+1). git push origin main :-  to push local content to remote content that is github repo . 
+
