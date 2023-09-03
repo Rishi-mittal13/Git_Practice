@@ -9,9 +9,9 @@
 3). git config --list :- display about the details about the current user of git that made changes in a project .  
 
 //cloning a git repo .  in current folder .
-1). git clone "https link of repo " 
+1). git clone "https link of repo" 
 2). git init : - initialize an existing directory as a Git repository
-
+3). git remote add origin "link" :- adding a repo in your current repo . 
 
 //git staging . 
 1) . git status :- show modified files in working directory, staged for your next commit
@@ -22,5 +22,10 @@
 
 
 //git push :- to push your changes in main branch of git . 
-1). git push origin main :-  to push local content to remote content that is github repo . 
+1). git push origin main / git push -u origin main:-  to push local content to remote content that is github repo . 
 
+
+//git branches :- 
+1). git branches :- give the name of all branches you create for a particular repo . 
+2). git checkout branch_name :- to change the branch by give their name.  
+3). git branch -m old_branchname new_branchname . 
