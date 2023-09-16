@@ -23,9 +23,10 @@
 
 //git push :- to push your changes in main branch of git . 
 1). git push origin main / git push -u origin main:-  to push local content to remote content that is github repo . 
-
-
+2).  git remote -v .
+3).  git fetch origin main :-  to fetch all files present main in remote repo .  
 //git branches :- 
+
 1). git branches :- give the name of all branches you create for a particular repo . 
 2). git checkout branch_name :- to change the branch by give their name.  
 3). git branch -m old_branchname new_branchname . 
